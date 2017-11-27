@@ -1,0 +1,60 @@
+body{
+	background-image: url("../img/sign_body_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper{
+overflow: hidden;
+width: 400px;
+margin:0 auto;
+}
+.sign_up_content{
+	padding: 120px 70px;
+    background-image:url("../img/sign_up_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sign_up_content h2{
+	color: #fff;
+	margin: 0 0 35px;
+    font-size: 30px;
+    line-height: 34px;
+}
+.sign_up_content input{
+	border: none;
+    padding: 0 0 5px;
+    margin: 0 0 35px;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 5px solid #1b4443;
+    width: 100%;
+}
+
+.sign_up_content input:active{
+border:none;
+}
+
+.sign_up_content input::placeholder{
+    color: #ccc;
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+.sign_up_content form{
+margin-bottom: 20px;
+}
+fieldset{
+    border: none;
+}
+.reg_btn{
+	overflow: hidden;
+}
+.reg_btn input{
+    width: auto;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    line-height: 29px;
+
+}

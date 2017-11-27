@@ -1,0 +1,66 @@
+body{
+	background-image: url("../img/sign_body_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper{
+    overflow: hidden;
+    width: 500px;
+    margin: auto;
+}
+.sign_in_content{
+    padding: 70px;
+    background-image: url(../img/sign_up_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 100%;
+    margin: 100px 0;
+}
+.sign_in_content h2{
+    color: #00bfff;
+    margin: 0 0 35px;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+}
+.sign_in_content input{
+    border: 1px solid #fff;
+    padding: 8px;
+    margin: 0 0 35px;
+    color: #000;
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+.sign_in_content label{
+    font-size: 21px;
+    line-height: 25px;
+    color: #00bfff;
+    width: 100%;
+    display: block;
+}
+.sign_in_content input::placeholder{
+    color: #00bfff;
+    font-size: 20px;
+    line-height: 24px;
+}
+.sign_in_content form{
+margin-bottom: 20px;
+}
+.log_in_btn{
+	overflow: hidden;
+}
+.log_in_btn input{
+    border: none;
+    padding: 12px;
+    margin: 0 0 35px;
+    color: #fff;
+    width: 100%;
+    display: block;
+    border-radius: 0px;
+    background-color: #00bfff;
+    font-size: 20px;
+    line-height: 24px;
+
+}

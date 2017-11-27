@@ -1,0 +1,34 @@
+tr th{
+    border:1px solid;
+    padding: 10px 50px;
+    background-color: #000;
+    color: #fff;
+}
+tr{
+    border: 1px solid;
+}
+td{
+    border:1px solid;
+    padding: 10px 50px;
+}
+.wrapper{
+overflow: hidden;
+margin:0 auto;
+padding: 0 20px;
+}
+.tables{
+overflow: hidden;
+}
+.tables h2{
+    text-align: center;
+}
+.log_out_btn{
+	overflow: hidden;
+}
+.log_out_btn a{
+	display: inline-block;
+	vertical-align: middle;
+    font-size: 30px;
+    line-height: 35px;
+    float: right;
+}
